@@ -1,36 +1,97 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: adequatesystems # Your GitHub organization or username, where this repository lives
+repo: status-mochimo-org # The name of this repository
+delay: 1000 # 1s delay between each configured endpoint
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Mochimo Website
+    url: https://mochimo.org
+  - name: Official Mochimo API
+    url: https://api.mochimo.org/network/status
+    maxResponseTime: 3000
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"network_identifier":{"blockchain":"mochimo","network":"mainnet"}}'
+    __dangerous__body_degraded_if_text_missing: '"synced":true'
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - chrisdigity
+  - name: Direct Mochimo API in Germany
+    url: https://api-deu.mochimo.org/network/status
+    maxResponseTime: 3000
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"network_identifier":{"blockchain":"mochimo","network":"mainnet"}}'
+    __dangerous__body_degraded_if_text_missing: '"synced":true'
+    expectedStatusCodes:
+      - 200
+  - name: Direct Mochimo API in Singapore
+    url: https://api-sgp.mochimo.org/network/status
+    maxResponseTime: 3000
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"network_identifier":{"blockchain":"mochimo","network":"mainnet"}}'
+    __dangerous__body_degraded_if_text_missing: '"synced":true'
+    expectedStatusCodes:
+      - 200
+  - name: Direct Mochimo API in United States
+    url: https://api-usc.mochimo.org/network/status
+    maxResponseTime: 3000
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"network_identifier":{"blockchain":"mochimo","network":"mainnet"}}'
+    __dangerous__body_degraded_if_text_missing: '"synced":true'
+    expectedStatusCodes:
+      - 200
+  - name: Development Mochimo API
+    url: https://dev-api.mochimo.org:8443/network/status
+    maxResponseTime: 3000
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"network_identifier":{"blockchain":"mochimo","network":"mainnet"}}'
+    __dangerous__body_degraded_if_text_missing: '"synced":true'
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - NickP005
+  - name: Direct Mochimo Core Node in Germany
+    url: core-deu.mochimo.org
+    port: 2095
     check: "tcp-ping"
-    ipv6: true
+    maxResponseTime: 5000
+  - name: Direct Mochimo Core Node in Singapore
+    url: core-deu.mochimo.org
+    port: 2095
+    check: "tcp-ping"
+    maxResponseTime: 5000
+  - name: Direct Mochimo Core Node in United States
+    url: core-deu.mochimo.org
+    port: 2095
+    check: "tcp-ping"
+    maxResponseTime: 5000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.mochimo.org
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://github.com/mochimodev/mochimo/blob/master/.github/media/logo.png?raw=true
+  name: Mochimo Service Status
+  # introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
-    - title: Status
-      href: /
+    - title: Website
+      href: https://mochimo.org
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/mochimodev/mochimo
+    - title: Discord
+      href: https://discord.mochimo.org
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
