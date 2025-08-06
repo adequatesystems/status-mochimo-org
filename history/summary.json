@@ -22,19 +22,19 @@
     "url": "https://api.mochimo.org/network/status",
     "icon": "https://icons.duckduckgo.com/ip3/api.mochimo.org.ico",
     "slug": "official-mochimo-api",
-    "status": "degraded",
-    "uptime": "99.48%",
-    "uptimeDay": "98.59%",
-    "uptimeWeek": "99.48%",
-    "uptimeMonth": "99.48%",
-    "uptimeYear": "99.48%",
-    "time": 570,
-    "timeDay": 531,
-    "timeWeek": 570,
-    "timeMonth": 570,
-    "timeYear": 570,
+    "status": "up",
+    "uptime": "99.35%",
+    "uptimeDay": "98.26%",
+    "uptimeWeek": "99.35%",
+    "uptimeMonth": "99.35%",
+    "uptimeYear": "99.35%",
+    "time": 572,
+    "timeDay": 537,
+    "timeWeek": 572,
+    "timeMonth": 572,
+    "timeYear": 572,
     "dailyMinutesDown": {
-      "2025-08-06": 20
+      "2025-08-06": 25
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "https://api-deu.mochimo.org/network/status",
     "icon": "https://icons.duckduckgo.com/ip3/api-deu.mochimo.org.ico",
     "slug": "direct-mochimo-api-in-germany",
-    "status": "degraded",
-    "uptime": "99.61%",
-    "uptimeDay": "98.94%",
-    "uptimeWeek": "99.61%",
-    "uptimeMonth": "99.61%",
-    "uptimeYear": "99.61%",
+    "status": "up",
+    "uptime": "99.48%",
+    "uptimeDay": "98.61%",
+    "uptimeWeek": "99.48%",
+    "uptimeMonth": "99.48%",
+    "uptimeYear": "99.48%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-06": 15
+      "2025-08-06": 20
     }
   },
   {
@@ -110,7 +110,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-06": 1021,
+      "2025-08-06": 1026,
       "2025-08-05": 1440,
       "2025-08-04": 1412
     }
