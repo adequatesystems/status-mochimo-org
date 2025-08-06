@@ -22,27 +22,29 @@
     "url": "https://api.mochimo.org/network/status",
     "icon": "https://icons.duckduckgo.com/ip3/api.mochimo.org.ico",
     "slug": "official-mochimo-api",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 621,
-    "timeDay": 361,
-    "timeWeek": 621,
-    "timeMonth": 621,
-    "timeYear": 621,
-    "dailyMinutesDown": {}
+    "time": 607,
+    "timeDay": 429,
+    "timeWeek": 607,
+    "timeMonth": 607,
+    "timeYear": 607,
+    "dailyMinutesDown": {
+      "2025-08-06": 0
+    }
   },
   {
     "name": "Direct Mochimo API in Germany",
     "url": "https://api-deu.mochimo.org/network/status",
     "icon": "https://icons.duckduckgo.com/ip3/api-deu.mochimo.org.ico",
     "slug": "direct-mochimo-api-in-germany",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,7 +53,9 @@
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-06": 0
+    }
   },
   {
     "name": "Direct Mochimo API in Singapore",
@@ -106,7 +110,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-06": 144,
+      "2025-08-06": 156,
       "2025-08-05": 1440,
       "2025-08-04": 1412
     }
