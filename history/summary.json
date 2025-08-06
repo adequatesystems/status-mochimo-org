@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.mochimo.org.ico",
     "slug": "official-mochimo-api",
     "status": "up",
-    "uptime": "99.48%",
-    "uptimeDay": "98.60%",
-    "uptimeWeek": "99.48%",
-    "uptimeMonth": "99.48%",
-    "uptimeYear": "99.48%",
+    "uptime": "99.64%",
+    "uptimeDay": "98.95%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.64%",
     "time": 568,
     "timeDay": 534,
     "timeWeek": 568,
     "timeMonth": 568,
     "timeYear": 568,
     "dailyMinutesDown": {
-      "2025-08-06": 20
+      "2025-08-06": 15
     }
   },
   {
@@ -43,18 +43,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api-deu.mochimo.org.ico",
     "slug": "direct-mochimo-api-in-germany",
     "status": "up",
-    "uptime": "99.48%",
-    "uptimeDay": "98.60%",
-    "uptimeWeek": "99.48%",
-    "uptimeMonth": "99.48%",
-    "uptimeYear": "99.48%",
+    "uptime": "99.64%",
+    "uptimeDay": "98.95%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.64%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-06": 20
+      "2025-08-06": 15
     }
   },
   {
@@ -62,9 +62,9 @@
     "url": "https://api-sgp.mochimo.org/network/status",
     "icon": "https://icons.duckduckgo.com/ip3/api-sgp.mochimo.org.ico",
     "slug": "direct-mochimo-api-in-singapore",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -73,7 +73,9 @@
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-06": 0
+    }
   },
   {
     "name": "Direct Mochimo API in United States",
@@ -110,7 +112,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-06": 1041,
+      "2025-08-06": 1306,
       "2025-08-05": 1440,
       "2025-08-04": 1412
     }
@@ -138,9 +140,9 @@
     "url": "core-sgp.mochimo.org",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "direct-mochimo-core-node-in-singapore",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -149,7 +151,9 @@
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-06": 0
+    }
   },
   {
     "name": "Direct Mochimo Core Node in United States",
