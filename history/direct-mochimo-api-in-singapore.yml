@@ -1,7 +1,7 @@
 url: https://api-sgp.mochimo.org/network/status
-status: up
+status: degraded
 code: 200
-responseTime: 886
-lastUpdated: 2025-08-08T05:20:45.882Z
+responseTime: 1000
+lastUpdated: 2025-08-08T09:26:00.260Z
 startTime: 2025-08-04T00:27:31.509Z
 generator: Upptime <https://github.com/upptime/upptime>
