@@ -22,18 +22,19 @@
     "url": "https://api.mochimo.org/network/status",
     "icon": "https://icons.duckduckgo.com/ip3/api.mochimo.org.ico",
     "slug": "official-mochimo-api",
-    "status": "up",
+    "status": "degraded",
     "uptime": "99.52%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "99.52%",
     "uptimeMonth": "99.52%",
     "uptimeYear": "99.52%",
-    "time": 556,
-    "timeDay": 514,
-    "timeWeek": 556,
-    "timeMonth": 556,
-    "timeYear": 556,
+    "time": 555,
+    "timeDay": 513,
+    "timeWeek": 555,
+    "timeMonth": 555,
+    "timeYear": 555,
     "dailyMinutesDown": {
+      "2025-08-09": 0,
       "2025-08-06": 35
     }
   },
@@ -42,9 +43,9 @@
     "url": "https://api-deu.mochimo.org/network/status",
     "icon": "https://icons.duckduckgo.com/ip3/api-deu.mochimo.org.ico",
     "slug": "direct-mochimo-api-in-germany",
-    "status": "up",
+    "status": "degraded",
     "uptime": "99.52%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "99.52%",
     "uptimeMonth": "99.52%",
     "uptimeYear": "99.52%",
@@ -54,6 +55,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
+      "2025-08-09": 0,
       "2025-08-06": 35
     }
   },
@@ -110,7 +112,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-09": 126,
+      "2025-08-09": 156,
       "2025-08-08": 1440,
       "2025-08-07": 1440,
       "2025-08-06": 1440,
