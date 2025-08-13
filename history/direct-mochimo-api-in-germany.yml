@@ -1,7 +1,7 @@
 url: https://api-deu.mochimo.org/network/status
-status: degraded
+status: up
 code: 200
-responseTime: 503
-lastUpdated: 2025-08-13T06:05:44.013Z
+responseTime: 514
+lastUpdated: 2025-08-13T06:10:46.161Z
 startTime: 2025-08-04T00:27:29.626Z
 generator: Upptime <https://github.com/upptime/upptime>
