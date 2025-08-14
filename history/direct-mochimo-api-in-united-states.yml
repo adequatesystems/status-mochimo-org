@@ -1,7 +1,7 @@
 url: https://api-usc.mochimo.org/network/status
-status: up
+status: degraded
 code: 200
-responseTime: 400
-lastUpdated: 2025-08-13T23:11:29.603Z
+responseTime: 217
+lastUpdated: 2025-08-14T07:20:42.686Z
 startTime: 2025-08-04T00:27:33.836Z
 generator: Upptime <https://github.com/upptime/upptime>
