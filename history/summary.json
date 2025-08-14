@@ -23,18 +23,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.mochimo.org.ico",
     "slug": "official-mochimo-api",
     "status": "up",
-    "uptime": "99.74%",
-    "uptimeDay": "99.64%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.74%",
-    "uptimeYear": "99.74%",
+    "uptime": "99.77%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.77%",
+    "uptimeYear": "99.77%",
     "time": 561,
     "timeDay": 599,
     "timeWeek": 559,
     "timeMonth": 561,
     "timeYear": 561,
     "dailyMinutesDown": {
-      "2025-08-14": 5,
       "2025-08-06": 35
     }
   },
@@ -44,18 +43,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api-deu.mochimo.org.ico",
     "slug": "direct-mochimo-api-in-germany",
     "status": "up",
-    "uptime": "99.74%",
-    "uptimeDay": "99.64%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.74%",
-    "uptimeYear": "99.74%",
+    "uptime": "99.77%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.77%",
+    "uptimeYear": "99.77%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-14": 5,
       "2025-08-06": 35
     }
   },
@@ -82,9 +80,9 @@
     "url": "https://api-usc.mochimo.org/network/status",
     "icon": "https://icons.duckduckgo.com/ip3/api-usc.mochimo.org.ico",
     "slug": "direct-mochimo-api-in-united-states",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -93,7 +91,9 @@
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-14": 0
+    }
   },
   {
     "name": "Development Mochimo API",
@@ -112,7 +112,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-14": 991,
+      "2025-08-14": 1232,
       "2025-08-13": 1440,
       "2025-08-12": 1440,
       "2025-08-11": 1440,
